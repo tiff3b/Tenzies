@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: Inter, sans-serif;
     margin: 0;
     background-color: #0B2434;
     padding: 20px;
@@ -24,7 +25,28 @@ main {
     background-color: #F5F5F5;
     height: 100%;
     border-radius: 5px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;    
 }
 
+.dice{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dice button{
+    background-color: #ffffff;
+    color: #2b283a;
+    width: 35.84px;
+    height: 35.84px;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: bold;
+    box-shadow: 0 8px 6px -6px lightgray;
+    font-family: Inter, sans-serif;
+}
 
